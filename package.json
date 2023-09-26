@@ -1,0 +1,26 @@
+{
+  "name": "alchemy-themes",
+  "displayName": "Alchemy Themes",
+  "description": "Themes created for my personal use but feel free to use them. I'm Saulo Vallory, btw. They will tend to be dark, without bright colors, yet with a lot of different colors to color code many tokens",
+  "version": "0.0.1",
+  "publisher": "svallory",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svallory/vscode-themes.git"
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Magnetite Matte Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Magnetite Matte Dark-color-theme.json"
+      }
+    ]
+  }
+}
